@@ -1,10 +1,7 @@
-/* 
-
 * {
     border: 1px solid brown;
 }
 
-*/
 
 ul {
     list-style-type: none;
@@ -13,13 +10,16 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 15%;
     background-color: #1F2937;
 }
 
 .right-links {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-links > ul {
@@ -29,4 +29,16 @@ ul {
     gap: 32px;
     font-size: 18px;
     color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex: 1 1 50%;
 }
