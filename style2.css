@@ -10,6 +10,11 @@
     padding: 16px 10%;
 }
 
+.body-mid,
+.quote {
+    padding: 0 250px;
+}
+
 .content {
     gap: 32px;
     margin: 100px 0px;
@@ -70,25 +75,28 @@ button {
     font-weight: bold;
 }
 
-.body-mid {
-    padding: 0 10%;
-}
 
 .title {
-    font-size: 48;
+    height: 64px;
     text-align: center;
-    font-weight: bolder;
-    margin: 32px 0;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0;
+    padding: 40px;
 }
 
 .body-mid img {
-    width: 100px;
-    height: 100px;
+    width: 170px;
+    height: 170px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
+    margin-top: -25px;
+    margin-bottom: 130px;
+    gap: 50px;
+    padding: 0px;
 }
 
 .child1,
@@ -97,4 +105,8 @@ button {
 .child4,
 .child5 {
     text-align: center;
+}
+
+.text {
+    width: 170px;
 }
