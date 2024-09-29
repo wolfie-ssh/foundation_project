@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     border: 1px solid brown;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -36,9 +39,19 @@ ul {
 .body {
     display: flex;
     text-align: center;
+    padding: 16px 15%;
+    gap: 32px;
+    flex-basis: 150px;
+    background-color: #1F2937;
 }
 
 .content {
     display: flex;
-    flex: 1 1 50%;
+    flex-direction: column;
+}
+
+
+button {
+    background-color: #3882F6;
+    color: #fff;
 }
