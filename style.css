@@ -2,6 +2,19 @@
     border: 1px solid brown;
 }
 
-body {
+ul {
+    list-style-type: none;
+}
+
+.header {
     display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.left-links > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
 }
